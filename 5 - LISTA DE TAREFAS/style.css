@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+#form_container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#form_contaier , form{
+    background-color: aqua;
+    margin: 10px;
+}
+
+#output{
+    background-color: aquamarine;
+}
+
+#output{
+    display: inline-block;
+    background-color: aqua;
+}
