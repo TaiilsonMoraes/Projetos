@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --cor-destaque: #109BE0;       /* Usada para destacar elementos importantes */
+    --cor-primaria: #1017E0;       /* Cor principal, utilizada em botões ou links */
+    --cor-secundaria: #1059E0;     /* Cor secundária para suportar a primária */
+    --cor-acao: #10DDE0;           /* Usada em elementos de ação, como botões de confirmação */
+    --cor-alerta: #4D10E0;         /* Usada para alertas ou mensagens de erro */
+    --cor-borda: #4D10E0;          /* Usada para bordas e detalhes */
+    
+}
+
+/*-----------GERAL-------------*/
+#container-geral{
+    
+}
+button{
+    border: 1px solid var(--cor-destaque);
+    padding: 5px;
+}
+button:hover{
+    background-color: var(--cor-acao);
+    transition: 0.4s;
+}
+input{
+    padding: 4px;
+}
+
+
+
+
+
+

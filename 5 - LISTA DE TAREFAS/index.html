@@ -8,7 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="container-geral">
+        <div id="header-container">
+            <header>
+                <h1>Lista de Tarefa</h1>
+            </header>
+        
+            <form action="#">
+                <div>
+                    <label for="tarefa">Tarefa:</label>
+                    <input type="text" name="tarefa" id="tarefa" placeholder="Adicione sua tarefa">
+                    <button type="submit">+</button>
+                </div>
+            </form>
+          
+            <div id="lista-de-tarefas">
+                <div class="todo">
+                    <h3>OQUE ESTOU FAZENDO</h3>
+                    <button class="concluir">V</button>
+                    <button class="excluir">X</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
